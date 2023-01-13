@@ -46,11 +46,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 625ccb94bf93077498982c16ee690870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerType: 1
+  triggerType: 0
   weaponType: 0
   fireRate: 0.1
-  reloadTime: 1.5
-  clipSize: 10
+  reloadTime: 1
+  clipSize: 100
   damage: 8
   ammoType: 0
   projectilePrefab: {fileID: 0}
@@ -59,7 +59,7 @@ MonoBehaviour:
   advancedSettings:
     spreadAngle: 0.5
     projectilePerShot: 1
-    screenShakeMultiplier: 1
+    screenShakeMultiplier: 5
   FireAnimationClip: {fileID: 7400006, guid: 36622a955330bc346a249a1e63e61d2a, type: 3}
   ReloadAnimationClip: {fileID: 7400008, guid: 36622a955330bc346a249a1e63e61d2a, type: 3}
   FireAudioClip: {fileID: 8300000, guid: 79c781879da4b6c4f8c7cd79fd034759, type: 3}
